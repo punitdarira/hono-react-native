@@ -6,7 +6,7 @@ const app = new Hono()
 app.use(renderer)
 
 app.get('/', (c) => {
-  return c.render(<h1>Hello World!</h1>)
+  return c.render(<h1>Hello there World!</h1>)
 })
 
 app.get('/message', (c) => {
